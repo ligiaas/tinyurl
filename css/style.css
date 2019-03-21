@@ -1,0 +1,134 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+    line-height: 20px;
+    /*color: #898989;*/
+}
+p.gray {
+	color: #898989;
+}
+header {
+	left: 0;
+	right: 0;
+	/*position: absolute;*/
+	background: #fcdb00;
+	z-index: 100;
+	width: 100%;
+	padding: 60px 0;
+	/*position: fixed;*/
+}
+#content {
+	padding-top: 85px;
+	background: #fcdb00;
+}
+#content h1 {
+	color: #222222;
+}
+#middle {
+	background: #ffffff;
+	padding: 110px 0;
+}
+#middle h1 {
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+}
+#middle h2 {
+	font-size: 20px;
+	line-height: 20px;
+    font-weight: 700;
+	color: #000;
+}
+#middle i {
+	display: inline-block;
+	font-size: 70px;
+}
+footer {
+    padding: 110px 0;
+	background: #010101;
+	color: #898989;
+}
+footer h2 {
+	color: #fcdb00;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.column {
+	/*margin-right: -15px;
+	margin-left: -15px;*/
+	width: 33%;
+	display: inline-block;
+}
+.items {
+	display: inline-block;
+}
+.description {
+
+}
+.dive {
+	text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+	margin: 20px 0 70px;
+}
+/*-------------------------------MENU------------------------*/
+.menu {
+	float: right;
+}
+nav a {
+	padding: 14px 16px;
+	color: #222222;
+	text-decoration: none;
+}
+.logo {
+	width: 70%;
+	float: left;
+	display: block;
+}
+
+/*-------------------------------MEDIAS------------------------*/
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+	#content {
+		padding: 250px 0 50px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+	#content {
+		padding: 250px 0 50px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.logo {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.menu {
+		width: 100%;
+	}
+	nav a {
+		display: block;
+		text-align: center;
+		float: none;
+		width: 100%;
+		cursor: pointer;
+	}
+	nav a:hover {
+		background-color: #fcdb00;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+@media only screen and (max-width: 479px) {
+}
